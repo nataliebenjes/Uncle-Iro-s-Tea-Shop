@@ -59,6 +59,25 @@ class TeaControl extends React.Component {
     const selectedTea = this.state.mainTeaList.filter(tea => tea.id === id)[0];
     this.setState({selectedTea: selectedTea});
   }
+
+  handleSell = () => {
+    if (this.state.selectedTea.ouncesOfTea > 0) {
+      const soldTea = this.state.mainTeaList
+        .filter(tea => tea.id === this.state.selectedTea.id)[0];
+      if (soldTea) {
+        soldTea.ouncesOfTea--;
+      }
+      const editedMainTeaList = this.state.mainTeaList
+        .filter(tea => tea.id !== this.state.selectedTea.id)
+        .concat(soldTea);
+
+      this.setState({
+        mainTeaList: editedMainTeaList
+      });
+    }
+  }
+
+
   render() {
     let currentlyVisibleState = null;
     let buttonText = null; // new code

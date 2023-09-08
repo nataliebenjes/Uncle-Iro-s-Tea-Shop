@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
 function Tea(props){
   return (
     <React.Fragment>
+
       <div onClick = {() => props.whenTeaClicked(props.id)}>
       <h3>{props.type} - {props.name} - {props.origin}</h3>
+
       <p><em>{props.price}</em></p>
         <hr/>
       </div>
@@ -15,7 +16,6 @@ function Tea(props){
 }
 
 Tea.propTypes = {
-
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,

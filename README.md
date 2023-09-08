@@ -1,17 +1,16 @@
-# Uncle Iro's Tea Shop Inventory Tracker
+# 🍵🍵🍵🍵Uncle Iro's Tea Shop Inventory Tracker🍵🍵🍵🍵
 
 Welcome to the Uncle Iro's Tea Shop Inventory Tracker! This web application is designed to help you manage your tea inventory with ease. The user is able to track their inventory of loose leaf tea after sales of 1 oz. Below, you'll find a detailed guide on how to set up and use this application effectively.
 
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
-2. [Component Structure](#component-structure)
+2. [Component Tree](#component-tree)
 3. [Features](#features)
 4. [Themes](#themes)
-5. [User Stories](#user-stories)
-6. [Usage](#usage)
-7. [Future Improvements](#future-improvements)
-8. [Feedback and Support](#feedback-and-support)
+5. [Usage](#usage)
+6. [Future Improvements](#future-improvements)
+7. [Feedback and Support](#feedback-and-support)
 
 ## Getting Started
 
@@ -26,9 +25,9 @@ To set up the Local Tea Shop Inventory Tracker on your local machine, follow the
 
 4. Open your preferred web browser and go to `http://localhost:3000` to access the application.
 
-## Component Structure
+## Component Tree
 
-Before diving into the code, it's essential to understand the component structure. This helps in navigating the codebase efficiently. You can view the component tree [here](https://www.draw.io/your-diagram-link).
+include image here
 
 ## Features
 
@@ -41,28 +40,14 @@ The application provides the following functionalities:
 5. See the remaining ounces of tea in a crate. Each crate contains roughly 130 ounces.
 6. Sell an ounce of tea with a single click. The remaining ounces will update accordingly.
 
-## Themes
-
-This application supports various themes, but for the purpose of this README, we'll focus on the Tea Shop theme. You'll be tracking the number of ounces of loose-leaf tea sold.
-
+## Tree
 - One crate of tea contains 130 ounces of loose-leaf tea.
 - Every sale decrements one ounce of tea from the crate until it is empty.
-
-## User Stories
-
-To ensure that the application meets your needs, consider the following user stories:
-
-- As a user, I want to easily navigate and view available tea options.
-- For each item, I want to see its name, origin, price, and type (e.g., green, black, herbal).
-- As a user, I want to add a new crate of tea to the inventory with relevant details.
-- I want to click on a crate to view its detailed information.
-- I want to see the remaining ounces of tea in a crate.
-- I want to be able to sell a pound of tea with a single click.
 
 ## Usage
 
 1. **Viewing Available Tea Options**
-- Upon opening the application, you'll see a list of available types of tea. Click on any item to view its details.
+- Upon opening the application, you'll see a list of available types of tea. Click on any item to view its details. For each item, the user can see its name, origin, price, and type (e.g., green, black, herbal).
 
 2. **Adding a New Crate of Tea**
 - Navigate to the "Add New Tea Crate" page and fill in the required details (name, origin, price, type, and quantity).
