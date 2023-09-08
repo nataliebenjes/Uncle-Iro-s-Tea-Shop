@@ -7,7 +7,7 @@ function TeaDetail(props){
 
   return (
     <React.Fragment>
-      <h1>This Tea's Details</h1>
+      <h1>This Teas Details</h1>
       <h3>{tea.type} - {tea.name} - {tea.origin}</h3>
       <p><em>{tea.price}</em></p>
       <button onClick={onClickingEdit}>Update Tea</button>
