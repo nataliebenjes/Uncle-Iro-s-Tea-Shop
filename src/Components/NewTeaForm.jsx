@@ -13,7 +13,7 @@ function NewTeaForm(props){
       origin: event.target.origin.value, 
       type: event.target.type.value, 
       price: event.target.price.value,
-      ouncesOfTea: 130,
+      ouncesOfTea: 5,
       id: v4()
     });
   }

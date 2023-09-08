@@ -8,7 +8,7 @@ function Tea(props){
       <div onClick = {() => props.whenTeaClicked(props.id)}>
       <h3>{props.type} - {props.name} - {props.origin}</h3>
 
-      <p><em>{props.price}</em></p>
+      <p><em>${props.price} per oz</em></p>
         <hr/>
       </div>
     </React.Fragment>
@@ -20,7 +20,7 @@ Tea.propTypes = {
   type: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string,
   whenTeaClicked: PropTypes.func
 };
 

@@ -7,7 +7,7 @@ function TeaList(props) {
   let teaList;
 
   if (props.teaList[0] === undefined) {
-    teaList = 'No tea crates have been added to the tea list yet';
+    teaList = 'No crates of tea have been added to the tea list yet';
   } else {
     teaList =
       props.teaList.map((tea) =>

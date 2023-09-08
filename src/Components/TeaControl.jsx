@@ -61,6 +61,10 @@ class TeaControl extends React.Component {
   }
 
   handleSell = () => {
+    console.log('handleSell called');
+    console.log('Selected Tea:', this.state.selectedTea);
+    console.log('Main Tea List:', this.state.mainTeaList);
+  
     if (this.state.selectedTea.ouncesOfTea > 0) {
       const soldTea = this.state.mainTeaList
         .filter(tea => tea.id === this.state.selectedTea.id)[0];
@@ -86,7 +90,7 @@ class TeaControl extends React.Component {
       buttonText = "Return to Tea List";
     } else if (this.state.selectedTea != null) {
       currentlyVisibleState = <TeaDetail 
-      tea={this.state.selectedTea} 
+      tea={this.state.selectedTea} onClickingSell={this.handleSell}
       onClickingDelete={this.handleDeletingTea}
       onClickingEdit = {this.handleEditClick} />
       buttonText = "Return to Tea List";
@@ -95,7 +99,7 @@ class TeaControl extends React.Component {
       buttonText = "Return to Tea List"; 
     } else {
       currentlyVisibleState = <TeaList onTeaSelection={this.handleChangingSelectedTea} teaList={this.state.mainTeaList} />;
-      buttonText = "Add Tea"; 
+      buttonText = "Add Tea Crate"; 
     }
 
     return (
