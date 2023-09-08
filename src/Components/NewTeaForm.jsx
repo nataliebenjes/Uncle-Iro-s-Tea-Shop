@@ -1,7 +1,8 @@
-import React from "react";
+import { Box } from "@mui/material";
 import PropTypes from "prop-types";
 import { v4 } from 'uuid';
 import ReusableForm from "./ReusableForm";
+
 
 
 function NewTeaForm(props){
@@ -19,11 +20,11 @@ function NewTeaForm(props){
   }
 
   return (
-    <React.Fragment>
+    <Box width="80%" m="80px auto">
       <ReusableForm 
         formSubmissionHandler={handleNewTeaFormSubmission}
         buttonText="Add a crate of tea" />
-    </React.Fragment>
+    </Box>
   );
 }
 

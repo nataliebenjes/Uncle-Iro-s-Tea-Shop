@@ -1,9 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { Box } from "@mui/material";import PropTypes from "prop-types";
 
 function Tea(props){
   return (
-    <React.Fragment>
+    <Box width="80%" m="80px auto">
 
       <div onClick = {() => props.whenTeaClicked(props.id)}>
       <h3>{props.type} - {props.name} - {props.origin}</h3>
@@ -11,7 +10,7 @@ function Tea(props){
       <p><em>${props.price} per oz</em></p>
         <hr/>
       </div>
-    </React.Fragment>
+    </Box>
   );
 }
 

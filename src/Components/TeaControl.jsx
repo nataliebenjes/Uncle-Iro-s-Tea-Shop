@@ -3,7 +3,7 @@ import NewTeaForm from './NewTeaForm';
 import TeaList from './TeaList';
 import EditTeaForm from './EditTeaForm';
 import TeaDetail from './TeaDetail';
-
+import { Button } from "@mui/material";
 class TeaControl extends React.Component {
 
   constructor(props) {
@@ -105,7 +105,7 @@ class TeaControl extends React.Component {
     return (
       <React.Fragment>
         {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button> { /* new code */}
+        <Button onClick={this.handleClick}>{buttonText}</Button> { /* new code */}
       </React.Fragment>
     );
   }
