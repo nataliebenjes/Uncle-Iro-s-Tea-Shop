@@ -9,11 +9,11 @@ function EditTeaForm (props) {
   function handleEditTeaFormSubmission(event) {
     event.preventDefault();
     props.onEditTea({
-      names: event.target.names.value, 
+      name: event.target.name.value, 
       origin: event.target.origin.value, 
       type: event.target.type.value, 
       price: event.target.price.value, 
-      ounces: event.target.ounces.value, 
+      // ounces: event.target.ounces.value, 
       id: tea.id
     });
   }

@@ -9,13 +9,12 @@ function NewTeaForm(props){
   function handleNewTeaFormSubmission(event) {
     event.preventDefault();
     props.onNewTeaCreation({
-      names: event.target.names.value, 
+      name: event.target.name.value, 
       origin: event.target.origin.value, 
       type: event.target.type.value, 
       price: event.target.price.value, 
-      ounces: event.target.ounces.value, 
+      // ounces: event.target.ounces.value, 
 //add crates
-      issue: event.target.issue.value, 
       id: v4()
     });
   }
@@ -29,7 +28,6 @@ function NewTeaForm(props){
   );
 }
 
- 
 NewTeaForm.propTypes = {
   onNewTeaCreation: PropTypes.func
 };

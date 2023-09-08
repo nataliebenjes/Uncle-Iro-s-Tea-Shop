@@ -13,7 +13,8 @@ function TeaList(props) {
           whenTeaClicked={props.onTeaSelection}
           name={tea.name}
           type={tea.type}
-          issue={tea.issue}
+          price={tea.price}
+          origin={tea.origin}
           id={tea.id}
           key={tea.id}/>
       )}

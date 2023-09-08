@@ -7,15 +7,24 @@ function ReusableForm(props) {
       <form onSubmit={props.formSubmissionHandler}>
         <input
           type='text'
-          name='names'
-          placeholder='Pair Names' />
+          name='name'
+          placeholder='Name of tea' />
         <input
           type='text'
-          name='location'
-          placeholder='Location' />
-        <textarea
-          name='issue'
-          placeholder='Describe your issue.' />
+          name='type'
+          placeholder='Tea type' />
+        <input
+          type='text'
+          name='price'
+          placeholder='$ per OZ' />
+        <input
+          type='text'
+          name='origin'
+          placeholder='Origin' />
+        {/* <input
+          type='text'
+          name='ounces'
+          placeholder='Ounces' /> */}
         <button type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
