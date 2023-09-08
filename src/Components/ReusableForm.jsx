@@ -9,10 +9,17 @@ function ReusableForm(props) {
           type='text'
           name='name'
           placeholder='Name of tea' />
-        <input
-          type='text'
+        <select
           name='type'
-          placeholder='Tea type' />
+          defaultValue='default'
+        >
+          <option value='black' disabled>Select Type</option>
+          <option value='🌱Green Tea🌱'>Green Tea</option>
+          <option value='☕Black Tea☕'>Black Tea</option>
+          <option value='🌼Herbal🌼'>Herbal Tea</option>
+          <option value='🍃White Tea🍃'>White Tea</option>
+          <option value='🍂Puerh🍂'>Puerh Tea</option>
+        </select>
         <input
           type='number'
           name='price'
