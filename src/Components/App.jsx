@@ -3,11 +3,13 @@ import Header from "./Header";
 import TeaControl from "./TeaControl";
 
 function App(){
-  return ( 
+  return (
+    <div>
     <React.Fragment>
       <Header />
       <TeaControl />
     </React.Fragment>
+    </div>
   );
 }
 

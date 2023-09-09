@@ -24,7 +24,6 @@ function TeaDetail(props) {
         <Button onClick={onClickingSell}>Sell a cup of this Tea</Button>
         <Button onClick={onClickingEdit}>Update Tea</Button>
         <Button onClick={() => onClickingDelete(tea.id)}>Remove this tea from inventory</Button>
-        <hr />
       </Box>
     </Box>
   );

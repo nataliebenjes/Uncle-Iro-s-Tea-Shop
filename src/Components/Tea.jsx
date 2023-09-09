@@ -8,7 +8,6 @@ function Tea(props){
       <h3>{props.type} - {props.name} - {props.origin}</h3>
 
       <p><em>${props.price} per oz</em></p>
-        <hr/>
       </div>
     </Box>
   );

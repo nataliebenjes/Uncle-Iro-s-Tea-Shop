@@ -1,0 +1,18 @@
+
+.tea-card {
+  border: 10px solid #9a3333;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tea-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tea-list {
+  margin-top: 20px;
+}
