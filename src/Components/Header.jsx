@@ -1,7 +1,8 @@
 
 function Header(){
   return (
-    <h1>Uncle Iro's Tea Shop</h1>
+    // eslint-disable-next-line react/no-unescaped-entities
+    <h1>Uncle Iroh's Tea Shop</h1>
   );
 }
 

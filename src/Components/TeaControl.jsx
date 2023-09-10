@@ -42,6 +42,7 @@ class TeaControl extends React.Component {
     this.setState({editing: true});
   }
   handleAddingNewTeaToList = (newTea) => {
+    console.log("check function");
     const newMainTeaList = this.state.mainTeaList.concat(newTea);
     this.setState({mainTeaList: newMainTeaList,
                   formVisibleOnPage: false });
@@ -61,9 +62,6 @@ class TeaControl extends React.Component {
   }
 
   handleSell = () => {
-    console.log('handleSell called');
-    console.log('Selected Tea:', this.state.selectedTea);
-    console.log('Main Tea List:', this.state.mainTeaList);
   
     if (this.state.selectedTea.ouncesOfTea > 0) {
       const soldTea = this.state.mainTeaList

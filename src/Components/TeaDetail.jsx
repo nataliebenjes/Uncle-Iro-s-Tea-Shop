@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import {  Button } from "@mui/material";
 import "./TeaList.css"; 
-import React from "react";
 
 
 

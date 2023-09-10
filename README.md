@@ -1,6 +1,6 @@
-# 🍵🍵🍵🍵Uncle Iro's Tea Shop Inventory Tracker🍵🍵🍵🍵
+# 🍵🍵🍵🍵Uncle Iroh's Tea Shop Inventory Tracker🍵🍵🍵🍵
 
-Welcome to the Uncle Iro's Tea Shop Inventory Tracker! This web application is designed to help you manage your tea inventory with ease. The user is able to track their inventory of loose leaf tea after sales of 1 oz. Below, you'll find a detailed guide on how to set up and use this application effectively.
+Welcome to the Uncle Iroh's Tea Shop Inventory Tracker! This web application is designed to help you manage your tea inventory with ease. The user is able to track their inventory of loose leaf tea after sales of 1 oz. Below, you'll find a detailed guide on how to set up and use this application effectively.
 
 ## Table of Contents
 
@@ -70,6 +70,6 @@ Here are some potential areas for improvement:
 
 If you have any feedback, suggestions, or need support, please feel free to reach out via GitHub.
 
-Enjoy using the Uncle Iro's Tea Shop Inventory Tracker!
+Enjoy using the Uncle Iroh's Tea Shop Inventory Tracker!
 
 **Happy Brewing!** 🍵
