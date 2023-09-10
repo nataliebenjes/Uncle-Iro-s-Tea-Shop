@@ -1,5 +1,8 @@
 import PropTypes from "prop-types";
-import { Box, Button } from "@mui/material";
+import {  Button } from "@mui/material";
+import "./TeaList.css"; 
+import React from "react";
+
 
 
 function TeaDetail(props) {
@@ -15,17 +18,30 @@ function TeaDetail(props) {
   }
 
   return (
-    <Box width="80%" m="80px auto">
-      <h2>This Teas Details</h2>
+    <div>
+    <h2>Tea Details</h2>
+    <div className="center">
+    <div className="card">
+    <div>
+      
       <h3>{tea.type} - {tea.name} - {tea.origin}</h3>
       <p><em>{tea.price}</em></p>
       <p>Number of ounces left of this tea: {teaStock}</p>
-      <Box>
+      <div>
+        <br></br><br></br><br></br>
+        <br></br><br></br>
+
+        <div className="center">
         <Button onClick={onClickingSell}>Sell a cup of this Tea</Button>
         <Button onClick={onClickingEdit}>Update Tea</Button>
         <Button onClick={() => onClickingDelete(tea.id)}>Remove this tea from inventory</Button>
-      </Box>
-    </Box>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
   );
 }
 
