@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import TeaControl from "./TeaControl";
-
-function App(){
+function App() {
   return (
     <div>
     <React.Fragment>
@@ -10,6 +9,7 @@ function App(){
       <TeaControl />
     </React.Fragment>
     </div>
+
   );
 }
 

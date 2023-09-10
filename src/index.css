@@ -20,10 +20,20 @@ body {
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
   height: 100vh; /* Optional: Set a specific height for vertical centering */
+  font-family: 'Macondo', cursive;
+  padding: 10px;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 .app{
   margin: 20px;
+  flex-grow: 1; /* This will make sure the content takes up the remaining space */
+
 }
+
+
 a {
   font-weight: 500;
   color: #4950cc;
@@ -40,15 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-body {
-  font-family: 'Macondo', cursive;
-  margin: 30px;
-  padding: 10px;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
