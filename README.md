@@ -29,7 +29,7 @@ To set up the Local Tea Shop Inventory Tracker on your local machine, follow the
 
 ## Component Tree
 
-<img src="drawio.svg" alt="component diagram" title="Components">
+<img src="drawio.xml" alt="component diagram" title="Components">
 
 ![component diagram] (./drawio.svg)
 
