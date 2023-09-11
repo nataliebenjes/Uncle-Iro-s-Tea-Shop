@@ -1,9 +1,29 @@
+import React from 'react';
+import styled from 'styled-components';
+import IrohPixel from '../assets/IrohPixel.svg';
 
-function Header(){
+const HeaderWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+`;
+
+const SvgWrapper = styled.img`
+  width: 125px; 
+  animation: wiggle .9s infinite;
+
+`;
+
+function Header() {
   return (
-    // eslint-disable-next-line react/no-unescaped-entities
-    <h1>Uncle Iroh's Tea Shop</h1>
+    <HeaderWrapper>
+      <SvgWrapper src={IrohPixel} alt="pixelated uncle iroh" />
+      <h1>Uncle Iroh's Tea Shop</h1>
+      <SvgWrapper src={IrohPixel} alt="pixelated uncle iroh" />
+    </HeaderWrapper>
   );
 }
 
 export default Header;
+
