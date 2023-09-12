@@ -1,6 +1,6 @@
 # 🍵🍵🍵🍵Uncle Iroh's Tea Shop Inventory Tracker🍵🍵🍵🍵
 <div style="text-align:center;">
-  <img src="src/assets/IrohInventory.png" alt="screenshot of app" width="350">
+  <img src="src/assets/irohGif copy.gif" alt="screenshot of app" width="350">
 </div>
 
 
