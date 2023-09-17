@@ -25,7 +25,7 @@ To set up the Local Tea Shop Inventory Tracker on your local machine, follow the
 2. Install dependencies:
 `npm install`
 3. Start the application:
-`npm start`
+`npm run dev`
 
 4. Open your preferred web browser and go to `http://localhost:3000` to access the application.
 
