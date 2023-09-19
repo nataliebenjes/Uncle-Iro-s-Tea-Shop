@@ -7,6 +7,8 @@ const HeaderWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  position: sticky;
+  top: 0;
 `;
 
 const SvgWrapper = styled.img`
